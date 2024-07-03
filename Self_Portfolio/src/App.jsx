@@ -4,7 +4,8 @@ import SocialLinks from "./components/SocialLinks"
 import About from "./components/About"
 import Technologies from "./components/Technologies"
 import Education from "./components/Education"
-
+import { BackgroundGradientDemo } from "./components/ui/backgroundgradientdemo"
+import Contact from "./components/Contact"
 function App() {
  
 
@@ -20,6 +21,8 @@ function App() {
     <About/>
     <Technologies/>
     <Education/>
+    <BackgroundGradientDemo/>
+    <Contact/>
 
 </div>
     </div>

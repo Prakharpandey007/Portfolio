@@ -16,7 +16,7 @@ const Education = () => {
   return (
     <div className="min-h-screen font-montserrat text-gray-800">
       <h1 className="text-4xl text-center text-white pt-10 mb-10">Education</h1>
-      <VerticalTimeline className="mt-10">
+      <VerticalTimeline className="mt-8">
         {timelineElements.map((element, index) => {
           const isWorkIcon = element.icon === "work";
           const showButton = element.buttonText;
