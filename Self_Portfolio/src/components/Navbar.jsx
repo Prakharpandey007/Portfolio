@@ -6,30 +6,31 @@ const NavBar = () => {
   const [nav, setNav] = useState(false);
 
   const links = [
+    
     {
       id: 1,
-      link: "home",
-    },
-    {
-      id: 2,
       link: "about",
     },
     {
+      id: 2,
+      link: "tech Stack",
+    },
+    {
       id: 3,
-      link: "portfolio",
+      link: "education",
     },
     {
       id: 4,
-      link: "experience",
+      link: "my work",
     },
     {
-      id: 5,
-      link: "contact",
+      id:5,
+      link:"contact"
     },
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-16 px-4 text-white fixed">
+    <div className="flex justify-between items-center w-full h-16 px-4 text-white sticky top-0">
       <div>
         <h1 className="text-3xl font-signature ml-2">Prakhar</h1>
       </div>

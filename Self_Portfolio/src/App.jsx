@@ -6,6 +6,7 @@ import Technologies from "./components/Technologies"
 import Education from "./components/Education"
 import { BackgroundGradientDemo } from "./components/ui/backgroundgradientdemo"
 import Contact from "./components/Contact"
+import Fotter from './components/Fotter'
 function App() {
  
 
@@ -23,6 +24,7 @@ function App() {
     <Education/>
     <BackgroundGradientDemo/>
     <Contact/>
+    <Fotter/>
 
 </div>
     </div>

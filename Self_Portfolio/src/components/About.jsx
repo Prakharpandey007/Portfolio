@@ -2,7 +2,7 @@ import { HERO_CONTENT } from "../constants";
 
 const About = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 h-screen flex flex-col justify-center">
+    <div name='about' className="border-b border-neutral-900 pb-4 h-screen flex flex-col justify-center">
       <h1 className="my-20 text-center text-4xl">
         About<span className="text-neutral-500"> Me</span>
       </h1>

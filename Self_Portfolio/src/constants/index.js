@@ -68,3 +68,18 @@ export const CONTACT = {
   phoneNo: "+12 4555 666 00 ",
   email: "me@example.com",
 };
+export const Bio = {
+  name: "Prakhar Pandey",
+  roles: [
+    "Full Stack Developer",
+    "Programmer",
+  ],
+  Contact:"7607491648",
+  Email:"prakharharshit.2003@gmail.com",
+  linkedin: "https://www.linkedin.com/in/prakhar-pandey-623036255/",
+  twitter: "https://x.com/PrakharPan07?t=rYnBF3Ls3vex_dnhFZ7Nxg&s=09",
+  insta: "https://www.instagram.com/pandeyprakhar07/",
+  leetcode:"https://leetcode.com/u/Prakhar327/",
+  codechef:"https://www.codechef.com/users/harshit065",
+  gfg:"https://www.geeksforgeeks.org/user/prakharhaabt5/"
+};

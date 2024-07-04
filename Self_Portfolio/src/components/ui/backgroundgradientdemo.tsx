@@ -7,7 +7,7 @@ import project3 from '../../assets/projects/project-3.png';
 
 export function BackgroundGradientDemo() {
   return (
-    <div className="min-h-screen font-montserrat text-gray-800">
+    <div  id="my work" className="min-h-screen font-montserrat text-gray-800">
       <h1 className="text-4xl text-center text-white pt-10 mb-10">My Projects</h1>
       <div className="flex flex-col items-center">
         <div className="text-xl text-center text-white mb-5">

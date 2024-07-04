@@ -32,7 +32,7 @@ const Technologies = () => {
   const techIconsRow2 = [mongodb, bootstrap, tailwind, mysql, git, github];
 
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <div name='tech Stack'className="border-b border-neutral-800 pb-24">
       <h1 className="my-20 text-center text-4xl">My Tech Stacks</h1>
       <div className="flex flex-wrap items-center justify-center gap-4">
         {techIconsRow1.map((src, index) => (
