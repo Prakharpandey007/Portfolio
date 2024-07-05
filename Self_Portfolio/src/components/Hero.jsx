@@ -1,5 +1,5 @@
 import React from 'react';
-import Typical from 'react-typical';
+import { Typewriter } from 'react-simple-typewriter';
 import profilePic from '../assets/projects/heroimage.png';
 
 const Hero = () => {
@@ -11,12 +11,19 @@ const Hero = () => {
             <h1 className="pb-10 text-6xl font-thin tracking-tight lg:mt-16 lg:text-5xl">
               Prakhar Pandey
             </h1>
-            <Typical
+            <span
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
-              steps={['I am ',1000,'Full Stack Web Developer', 1000,'And',1000, 'A Competitive Programmer', 1000]}
-              loop={Infinity}
-              wrapper="span"
-            />
+            >
+              <Typewriter
+                words={['I am', 'Full Stack Web Developer', 'And', 'A Competitive Programmer']}
+                loop={0} // Set to 0 for infinite loop
+                cursor
+                cursorStyle="|"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </span>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
@@ -30,4 +37,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
